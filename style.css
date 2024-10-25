@@ -1,0 +1,210 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.container{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 20px 25px black;
+    overflow: hidden;
+    max-width: 100%;
+    width: 400px;
+}
+.header{
+    border-bottom:1px solid wheat;
+    background-color: blanchedalmond;
+    padding: 20px 40px;
+}
+h2{
+    margin: 0;
+    text-align: center;
+}
+.form{
+    padding: 30px 40px;
+}
+.f{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+.f label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.f input{
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+.f input:focus{
+    outline: none;
+    border-color: rgb(48, 44, 44);
+}
+.f.success input{
+    border-color: aquamarine;
+}
+.f.error input{
+    border-color: red;
+}
+.f small{
+    color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+.f.error small{
+    visibility: visible;
+}
+button{
+    background-color: blue;
+    border: none;
+    color: white;
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+h1{
+    text-align: center;
+}
+textarea,input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    resize: vertical;
+    
+    
+    
+}
+.container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.f{
+    color: yellow;
+    background-color: blue;
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    
+
+}
+.d{
+    display: table-row;
+
+}
+.d,label{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 2px;
+    font-size: 30px;
+    text-align: right;
+    
+}
+.d,input{
+    
+    padding: 2px;
+    font-size: 20px;
+} */
+/* *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    resize: vertical;
+}
+.submit{
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: green;
+}
+.container{
+    border-radius: 5px;
+    background-color: orange;
+    padding: 20px;
+    width: 400px;
+    margin-left: 500px;
+} */

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> Contact Us</h1>
+        </div>
+       <form class="form" id="form">
+        <div class="f">
+            <label for="">Username</label>
+            <input type="text" id="username" placeholder="Your Name">
+            <small>Error Message</small>
+        </div>
+        <div class="f">
+            <label for="">Email</label>
+            <input type="email" id="email" placeholder="Your Email">
+            <small>Error Message</small>
+        </div>
+        <div class="f">
+            <label for="">Password</label>
+            <input type="password" id="password" placeholder="Your password">
+            <small>Error Message</small>
+        </div>
+        <div class="f">
+            <label for="">Phone Number</label>
+            <input type="phone" id="phone" placeholder="Your number">
+            <small>Error Message</small>
+        </div>
+        <div class="f">
+            <label for="">Message</label>
+            <textarea type="message" id="messages" placeholder="type the message" style="width: 80%; height: 80px;"></textarea>
+            <small>Error Message</small>
+        </div>
+        <button type="Submit">Submit</button>
+       </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
